@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Large experiment result directories
+results/
+消融实验结果/
+results_ablation/
+case_study_results/
+
+# Fused node-feature caches generated automatically at runtime
+data/miRNA_fused_node_features_*d.npz
+data/drug_fused_node_features_*d.npz
+
+# Local analysis caches and intermediate artifacts
+baselines_external_copies/
+degree_bias_5_6/
+enrichment_5_8/
+external_data_cache/
+external_validation_5_7/
+ns_cross_5/
+runtime_5_complexity/
+build_external_test_set.py
+build_ns_cross_table.py
+cluster_drug_coherence.py
+cluster_drug_rich_coherence.py
+export_hypergraph_clusters.py
+plot_enrichment_kegg_clean.py
+prepare_native_external_splits.py
+run_enrichment_5_8.py
+run_external_baselines_compare.py
+run_external_eval.py
+run_external_full_eval.py
+run_external_multiseed_rerun.py
+run_native_baselines.py
+run_runtime_microbench.py
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
